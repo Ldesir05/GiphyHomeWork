@@ -1,0 +1,72 @@
+* {
+  text-decoration: none;
+}
+button, div, form, input {
+  margin: 10px;
+}
+button {
+  display: inline-block;
+}
+button:hover,
+button:focus {
+    text-decoration: none;
+    color: #8F0000;
+}
+button:active{
+    border: 1px solid #757776;
+}
+#martialGIF_form { text-align: center; }
+#searchInstructions {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+#martialGiphyView {
+  margin: 5px auto;
+}
+.martialGiphy {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  align-content: center;
+  padding: 5px;
+}
+/* MEDIA-QUERIES, mobile-first — Bootstrap 3 */
+/* iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .martialGiphy img {
+    max-height: 300px;
+    max-width: 300px;
+  }
+}
+
+/* EXTRA-small devices, phones */
+@media only screen and (min-width: 480px) {
+  .martialGiphy img {
+    max-height: 225px;
+    width: 225px;
+  }
+}
+
+/* SMALL devices, tablets */
+@media only screen and (min-width: 768px) {
+  .martialGiphy img {
+    max-height: 300px;
+    width: 300px;
+  }
+}
+
+/* MEDIUM devices, desktops */
+@media only screen and (min-width: 992px) {
+  .martialGiphy img {
+    max-height: 300px;
+    width: 300px;
+  }
+}
+
+/* LARGE devices, widescreens */
+@media only screen and (min-width: 1200px) {
+  .martialGiphy img {
+    max-height: auto;
+    width: 300px;
+  }
+}
